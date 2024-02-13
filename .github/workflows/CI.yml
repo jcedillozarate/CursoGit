@@ -5,7 +5,7 @@ on: [push]
 jobs:
   test-automatico:
     name: 'Jest test'
-    runs-on: ub
+    runs-on: ubuntu-latest
 
     steps:
       - name: Run tests
