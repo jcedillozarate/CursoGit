@@ -1,0 +1,12 @@
+name: CI
+
+on: [push]
+
+jobs:
+  test-automatico:
+    name: 'Jest test'
+    runs-on: ub
+
+    steps:
+      - name: Run tests
+        run: npm run test 
